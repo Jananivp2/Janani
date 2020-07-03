@@ -1,0 +1,22 @@
+n = int(input("Enter number of terms"))
+
+fibo1 = 0
+fibo2 = 1
+count = 0
+
+if n < 0:
+    print("Enter valid positive number")
+
+elif n == 1:
+    print("Fibonacci Series is")
+    print(fibo1)
+
+else:
+    print("Fibonacci Series is")
+    
+    while(count < n):
+        print(fibo1)
+        fibo3 = fibo1 + fibo2
+        fibo1 = fibo2
+        fibo2 = fibo3
+        count = count+1
