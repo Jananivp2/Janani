@@ -19,4 +19,4 @@ else:
         fibo3 = fibo1 + fibo2
         fibo1 = fibo2
         fibo2 = fibo3
-        count = count+1
+        count = count + 1
