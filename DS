@@ -1,0 +1,22 @@
+#Assigning elements of myList to list1
+myList = ['a','b','c','d']
+list1 = []
+list1.extend(myList)
+print("myList = ",myList)
+print("Elements of myList is assigned to list1")
+print("list1 = ",list1)
+
+#Accessing elements of tuple using index
+myTup = ('e','f','g','h',)
+print("\nElements of Tuple are accessed")
+print(myTup[:])
+print(myTup[0:3])
+
+#Deleting dictionary elements
+myDict = {'1':'aa','2':'bb','3':'cc','4':'dd'}
+print("\nDictionary before deleting elements")
+print(myDict)
+print("Dictionary after deleting elements")
+myDict.pop('1')
+myDict.popitem()
+print(myDict)
